@@ -1,0 +1,12 @@
+[package]
+name = "pkcs11-example"
+version = "0.1.0"
+authors = ["Christopher Tarquini <chris@tarq.io>"]
+
+[lib]
+name = "pkcs11_example"
+crate-type = ["dylib"]
+
+[dependencies]
+pkcs11-sys = { path="../pkcs11-sys" }
+lazy_static = "*"
